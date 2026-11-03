@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" width="800" height="260" role="img" aria-label="Container ship at sea">
+  <title>Container ship at sea</title>
+  <rect width="800" height="260" fill="#eef3f6"/>
+  <rect y="190" width="800" height="70" fill="#14507f"/>
+  <path d="M0 200 q25 -10 50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0" fill="none" stroke="#b6c4d0" stroke-width="3"/>
+  <path d="M110 160 H700 L660 196 H150 Z" fill="#0b2a45"/>
+  <rect x="560" y="106" width="70" height="54" fill="#ffffff" stroke="#0b2a45" stroke-width="3"/>
+  <rect x="572" y="118" width="12" height="12" fill="#0b2a45"/><rect x="592" y="118" width="12" height="12" fill="#0b2a45"/><rect x="612" y="118" width="12" height="12" fill="#0b2a45"/>
+  <g stroke="#0b2a45" stroke-width="2">
+    <rect x="150" y="124" width="46" height="36" fill="#ff8a1f"/><rect x="198" y="124" width="46" height="36" fill="#1b7f8c"/><rect x="246" y="124" width="46" height="36" fill="#b6c4d0"/><rect x="294" y="124" width="46" height="36" fill="#ff8a1f"/><rect x="342" y="124" width="46" height="36" fill="#14507f"/><rect x="390" y="124" width="46" height="36" fill="#1b7f8c"/>
+    <rect x="174" y="88" width="46" height="36" fill="#14507f"/><rect x="222" y="88" width="46" height="36" fill="#ff8a1f"/><rect x="270" y="88" width="46" height="36" fill="#b6c4d0"/><rect x="318" y="88" width="46" height="36" fill="#1b7f8c"/>
+  </g>
+</svg>

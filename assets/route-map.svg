@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" width="800" height="360" role="img" aria-label="Simple route map from a departure port to an arrival port with two waypoints and one alert">
+  <title>Simple route map from a departure port to an arrival port with two waypoints and one alert</title>
+  <rect width="800" height="360" rx="12" fill="#dde6ec"/>
+  <path d="M0 250 C100 220 140 290 240 270 S380 300 420 330 L420 360 H0 Z" fill="#b6c4d0"/>
+  <path d="M520 0 C560 50 540 90 600 120 S720 100 800 150 V0 Z" fill="#b6c4d0"/>
+  <path d="M110 240 C220 150 330 220 430 150 S620 190 690 90" fill="none" stroke="#14507f" stroke-width="5" stroke-dasharray="3 12" stroke-linecap="round"/>
+  <circle cx="110" cy="240" r="12" fill="#14507f" stroke="#ffffff" stroke-width="3"/>
+  <circle cx="270" cy="188" r="9" fill="#ffffff" stroke="#14507f" stroke-width="4"/>
+  <circle cx="430" cy="150" r="9" fill="#ffffff" stroke="#14507f" stroke-width="4"/>
+  <circle cx="690" cy="90" r="12" fill="#ff8a1f" stroke="#10202e" stroke-width="3"/>
+  <g transform="translate(540 142)"><path d="M0 -22 L24 20 H-24 Z" fill="#fff1d6" stroke="#7a4a00" stroke-width="4" stroke-linejoin="round"/><path d="M0 -8 V6" stroke="#7a4a00" stroke-width="4" stroke-linecap="round"/><circle cx="0" cy="13" r="2.5" fill="#7a4a00"/></g>
+  <g font-family="system-ui, Arial, sans-serif" font-size="17" font-weight="700" fill="#10202e">
+    <text x="80" y="275">Departure</text><text x="640" y="68">Arrival</text><text x="505" y="186">Warning</text>
+  </g>
+</svg>
