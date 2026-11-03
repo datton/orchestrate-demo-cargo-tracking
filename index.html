@@ -33,6 +33,15 @@
 <li>Released, delivered and returned empty.</li>
 </ol>
 <p>Each event normally carries a time and a location, and the sequence shows how the journey is going.</p>
+<h2>Sensors and position</h2>
+<p>Besides status events, a container can carry a data logger or tracker. Common readings are:</p>
+<ul>
+<li><strong>GPS position:</strong> latitude and longitude in decimal degrees, showing where the container is, usually reported at intervals.</li>
+<li><strong>Temperature:</strong> important for temperature-controlled (reefer) cargo such as food or medicine.</li>
+<li><strong>Humidity:</strong> relative humidity inside the container. High humidity can cause condensation, which can damage goods such as paper, electronics and some food.</li>
+<li><strong>Shock:</strong> impacts measured in g, which can reveal rough handling or a drop.</li>
+</ul>
+<p>Limits for each reading depend on the cargo and the shipper, so the dashboard uses made-up demo limits only.</p>
 <h2><img src="assets/icon-route.svg" alt="" width="28" height="28"> Why tracking helps</h2>
 <img src="assets/route-map.svg" alt="Simple route map from a departure port to an arrival port with two waypoints and one alert" style="max-width:100%;height:auto">
 <ul>
