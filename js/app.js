@@ -125,19 +125,15 @@
     announce.textContent = '';
     announce.textContent = render();
   });
-  toggle.addEventListener('click', function () {
-    var on = toggle.getAttribute('aria-pressed') === 'true';
-    toggle.setAttribute('aria-pressed', on ? 'false' : 'true');
-    toggle.textContent = on ? 'Resume automatic updates' : 'Pause automatic updates';
-    if (on) { clearInterval(timer); timer = null; } else { timer = setInterval(tick, 8000); }
-  });
+  // the label names the action, so no aria-pressed: state lives in `timer`
+  function setAuto(on) {
+    if (on && !timer) timer = setInterval(tick, 8000);
+    if (!on && timer) { clearInterval(timer); timer = null; }
+    toggle.textContent = on ? 'Pause automatic updates' : 'Resume automatic updates';
+  }
+  toggle.addEventListener('click', function () { setAuto(!timer); });
 
   render();
   var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  if (reduce) {
-    toggle.setAttribute('aria-pressed', 'false');
-    toggle.textContent = 'Resume automatic updates';
-  } else {
-    timer = setInterval(tick, 8000);
-  }
+  setAuto(!reduce);
 })();
